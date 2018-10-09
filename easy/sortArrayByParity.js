@@ -9,10 +9,11 @@
 var sortArrayByParity = function(A) {
     const parity = [];
     for (let i = 0, len = A.length; i < len; i++) {    
-        if (A[i] % 2 == 0) {
-            parity.unshift(A[i]);
+        const el = A[i];
+        if (el % 2 == 0) {
+            parity.unshift(el);
         } else {
-            parity.push(A[i]);
+            parity.push(el);
         }
     }
     return parity;
