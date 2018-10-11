@@ -7,6 +7,9 @@
  * Call a group large if it has 3 or more characters.  We would like the starting and ending positions of every large group.
  * The final answer should be in lexicographic order.
  * 
+ * Input: "abbxxxxzzy"
+ * Output: [[3,6]]
+ * 
  */
 var largeGroupPositions = function(S) {
     const groups = [];

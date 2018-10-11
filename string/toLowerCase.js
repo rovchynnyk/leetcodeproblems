@@ -3,6 +3,9 @@
  * 
  * Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
  * 
+ * Input: "Hello"
+ * Output: "hello"
+ * 
  */
 const toLowerCase = str => {
     return [].map.call(str, letter => {
