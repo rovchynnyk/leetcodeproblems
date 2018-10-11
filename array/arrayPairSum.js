@@ -11,7 +11,7 @@ var arrayPairSum = function(nums) {
     nums.sort((a, b) => a - b);
     
     for (let i = 0, len = nums.length; i < len; i = i + 2) {
-        sum += Math.min(nums[i], nums[i + 1] || 0);
+        sum += Math.min(nums[i], nums[i + 1]);
     }
     
     return sum;
